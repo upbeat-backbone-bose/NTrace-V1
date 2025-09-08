@@ -1,15 +1,15 @@
 module github.com/nxtrace/NTrace-core
 
-go 1.24.5
+go 1.25
 
 require (
 	github.com/akamensky/argparse v1.4.0
 	github.com/google/gopacket v1.1.19
 	github.com/oschwald/maxminddb-golang v1.13.1
 	github.com/spf13/viper v1.20.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635
-	github.com/tsosunchia/powclient v0.1.5
+	github.com/tsosunchia/powclient v0.2.0
 	golang.org/x/net v0.42.0
 	golang.org/x/sync v0.16.0
 )
